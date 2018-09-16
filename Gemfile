@@ -12,6 +12,8 @@ gem 'puma', '~> 3.11'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
 
+gem 'has_scope'
+
 gem 'activerecord-postgres-earthdistance'
 
 # Reduces boot times through caching; required in config/boot.rb
