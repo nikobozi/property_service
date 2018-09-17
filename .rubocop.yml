@@ -1,0 +1,13 @@
+AllCops:
+  Include:
+    - 'app/models/**/*'
+    - 'app/controllers/**/*'
+  Exclude:
+    - 'bin/**/*'
+
+Metrics/MethodLength:
+  Max: 10
+Metrics/LineLength:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
