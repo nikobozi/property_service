@@ -12,7 +12,8 @@ gem 'puma', '~> 3.11'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
 
-gem 'has_scope'
+gem 'fast_jsonapi'
+gem 'redis-rails'
 
 gem 'activerecord-postgres-earthdistance'
 
